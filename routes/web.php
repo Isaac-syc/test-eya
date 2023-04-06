@@ -18,4 +18,4 @@ Route::get('/', function () {
 });
 
 //Route Hooks - Do not delete//
-	Route::view('shipping_requests', 'livewire.shipping-requests.index');
+	Route::view('shipping-requests', 'livewire.shipping-requests.index');
