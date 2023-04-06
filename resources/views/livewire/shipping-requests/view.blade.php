@@ -38,7 +38,7 @@
 							@forelse($shippingRequests as $row)
 							<tr>
                                 <td class="d-flex align-items-start">
-                                    <img src="https://cdn.icon-icons.com/icons2/2556/PNG/512/profile_picture_user_icon_153075.png" alt="profile picture" width="50" class="mr-3">
+                                    <img src="{{ asset('assets/img/user.svg') }}" alt="profile picture" width="50" class="mr-3">
                                     <div class="ms-3">
                                         <div>{{$row->fullname}}</div>
                                         <div>{{$row->email}}</div>
