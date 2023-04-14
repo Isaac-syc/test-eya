@@ -16,6 +16,3 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
-//Route Hooks - Do not delete//
-	Route::view('shipping-requests', 'livewire.shipping-requests.index');
